@@ -1,0 +1,68 @@
+.movie-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.list{
+    background: rgb(19, 7, 121);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    .pages-link{
+        color: #fff;
+        padding: 15px;
+        display: block;
+    }
+}
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    background: rgb(65, 64, 64);
+    padding: 30px;
+    margin-bottom: 50px;
+    &-left{
+        width: 600px;
+        // height: 00px;
+        color: #fff;
+    }
+    &-bottom{
+        width: 1000px;
+        padding-top: 50px;
+        .text{
+            color:rgb(247, 246, 250);
+            font-weight: 300;
+            font-size: 22px;
+        }
+    }
+    
+}
+
+.actors-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    height: 450px;
+    overflow: hidden;
+    overflow-y: scroll;
+    color:#fff;
+}
+.rec-movie-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+// .recom{
+//     background: rgb(92, 88, 88);
+//     padding: 20px 0;
+// }
+
+.home{
+    text-align: center;
+    height: 100vh;
+}
